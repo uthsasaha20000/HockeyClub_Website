@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-   <nav class="px-32 mt-6 mb-4 ">
+   <nav class="px-4 lg:px-32 mt-6 mb-4 ">
     <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <!-- <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
+            </div> -->
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Item 1</a></li>
               <li>
@@ -41,14 +44,14 @@
           </ul>
         </div>
         <div class="navbar-end">
-            <svg class="h-4 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            <svg class="h-0 lg:h-4 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
           <a class="btn bg-[#FF4240;] text-white">Get Tickets</a>
         </div>
       </div>
    </nav>
    <main>
     <!--coursal -->
-    <div class="carousel  rounded-2xl mx-28 my-8 h-96">
+    <div class="carousel   rounded-2xl  my-8 h-96 mx-4 lg:mx-28">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -78,7 +81,43 @@
           </div>
         </div>
       </div>
-      <!---->
+      <!--Professional Hockey section-->
+      <div class="text flex align-center justify-center items-center flex-col mb-8">
+        <div class="heading text-3xl font-extrabold">
+        Our Professional Hockey Club
+    </div>
+        <div class="para text-gray-500">
+        In our club we ensure to maintain high standard and provide high class facilities.
+        </div>
+    </div>
+     <div class="flex justify-between">
+        <div class="flex flex-col">
+        <div class=" mb-4 radial-progress" style="--value:70;" role="progressbar">70%</div>
+        
+            <h1 class="text-3xl font-extrabold">Prayer facilities</h1>
+            <p class="para text-gray-500">We have a big prayer room</p>
+        </div>
+     
+        <div class="flex flex-col">
+            <div class=" mb-4 radial-progress" style="--value:70;" role="progressbar">70%</div>
+            
+                <h1 class="text-3xl font-extrabold">Prayer facilities</h1>
+                <p class="para text-gray-500">We have a big prayer room</p>
+            </div>
+            <div class="flex flex-col">
+                <div class=" mb-4 radial-progress" style="--value:70;" role="progressbar">70%</div>
+                
+                    <h1 class="text-3xl font-extrabold">Prayer facilities</h1>
+                    <p class="para text-gray-500">We have a big prayer room</p>
+                </div>
+                <div class="flex flex-col">
+                    <div class=" mb-4 radial-progress" style="--value:70;" role="progressbar">70%</div>
+                    
+                        <h1 class="text-3xl font-extrabold">Prayer facilities</h1>
+                        <p class="para text-gray-500">We have a big prayer room</p>
+                    </div>
+    </div> 
+    
    </main>
 
 </body>
